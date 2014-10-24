@@ -15,7 +15,7 @@ SolutionProvider* SolutionProviderFactory::CreateSolutionProvider(int providerId
 {
     if(providerId == 1)
     {
-        cout<< "new a SolutionProvider A in SolutionProviderFactoryA" <<endl;
+        cout<< "new a SolutionProvider A in SolutionProviderFactoryAaaaa" <<endl;
         solutionProvider= new SolutionProviderA();
     }else if(providerId == 2)
     {

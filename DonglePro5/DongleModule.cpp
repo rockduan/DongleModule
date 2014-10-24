@@ -3,6 +3,7 @@
 DongleModule::DongleModule()
 {
     //ctor
+    cout<<"DongleModule::DongleModule()"<<endl;
 }
 
 DongleModule::~DongleModule()

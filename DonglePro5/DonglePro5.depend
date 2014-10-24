@@ -172,3 +172,113 @@
 	"SolutionProviderFactory.h"
 	"DongleModule.h"
 
+1414139998 source:/home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/DongleModule.cpp
+	"DongleModule.h"
+
+1414120597 /home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/DongleModule.h
+	"SolutionProviderFactory.h"
+	"SolutionProvider.h"
+
+1414120597 /home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/ISolutionProvider/SolutionProviderFactory.h
+	"SolutionProvider.h"
+	"SolutionProviderA.h"
+
+1414120597 /home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/ISolutionProvider/SolutionProvider.h
+	"IScanDongle.h"
+	<iostream>
+
+1414120595 /home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/IScanDongle/IScanDongle.h
+	<iostream>
+
+1414120597 /home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/ISolutionProvider/SolutionProviderA.h
+	"SolutionProvider.h"
+	"ScanDonglebyBluetooth.h"
+	<iostream>
+
+1414120595 /home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/IScanDongle/ScanDonglebyBluetooth.h
+	"IScanDongle.h"
+
+1414120595 source:/home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/IGetDongleInfo/IGetDongleInfo.cpp
+	"IGetDongleInfo.h"
+
+1414120595 /home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/IGetDongleInfo/IGetDongleInfo.h
+
+1414120595 source:/home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/IScanDongle/IScanDongle.cpp
+	"IScanDongle.h"
+
+1414120595 source:/home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/IScanDongle/IScanDonglebyRC.cpp
+	"IScanDonglebyRC.h"
+
+1414120595 /home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/IScanDongle/IScanDonglebyRC.h
+	"IScanDongle.h"
+
+1414120595 source:/home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/IScanDongle/ScanDonglebyBluetooth.cpp
+	"ScanDonglebyBluetooth.h"
+
+1414120595 source:/home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/IScanDongle/ScanDonglebyNEC.cpp
+	"ScanDonglebyNEC.h"
+
+1414120595 /home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/IScanDongle/ScanDonglebyNEC.h
+	"IScanDongle.h"
+
+1414120595 source:/home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/ISetDongleToIspMode/ISetDongleToIspMode.cpp
+	"ISetDongleToIspMode.h"
+
+1414120595 /home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/ISetDongleToIspMode/ISetDongleToIspMode.h
+	<iostream>
+
+1414120596 source:/home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/ISetDongleToNomalMode/ISetDongleToNomalMode.cpp
+	"ISetDongleToNomalMode.h"
+
+1414120596 /home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/ISetDongleToNomalMode/ISetDongleToNomalMode.h
+	<iostream>
+
+1414120597 source:/home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/ISolutionProvider/SolutionProvider.cpp
+	"SolutionProvider.h"
+
+1414120597 source:/home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/ISolutionProvider/SolutionProviderA.cpp
+	"SolutionProviderA.h"
+
+1414120597 source:/home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/ISolutionProvider/SolutionProviderB.cpp
+	"SolutionProviderB.h"
+
+1414120597 /home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/ISolutionProvider/SolutionProviderB.h
+	"SolutionProvider.h"
+	<iostream>
+
+1414140012 source:/home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/ISolutionProvider/SolutionProviderFactory.cpp
+	"SolutionProviderFactory.h"
+	"SolutionProvider.h"
+
+1414139989 source:/home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/main.cpp
+	<iostream>
+	"SolutionProviderFactory.h"
+	"DongleModule.h"
+	"ModuleControl.h"
+	"DongleModuleCommand.h"
+
+1414132583 source:/home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/DongleModuleControl/DongleModuleControl.cpp
+	"DongleModuleControl.h"
+
+1414133031 /home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/DongleModuleControl/DongleModuleControl.h
+	"Command.h"
+
+1414135674 source:/home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/Command/Command.cpp
+	"Command.h"
+
+1414135838 /home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/Command/Command.h
+	<iostream>
+
+1414139233 source:/home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/Command/DongleModuleCommand/DongleModuleCommand.cpp
+	"DongleModuleCommand.h"
+
+1414135857 /home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/Command/DongleModuleCommand/DongleModuleCommand.h
+	"Command.h"
+	"DongleModule.h"
+
+1414135917 source:/home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/ModuleControl/ModuleControl.cpp
+	"ModuleControl.h"
+
+1414135894 /home/duanliang/github/DongleModule/branches/duanliang/DonglePro5/ModuleControl/ModuleControl.h
+	"Command.h"
+

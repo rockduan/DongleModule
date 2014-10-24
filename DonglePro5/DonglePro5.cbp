@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="ICommand" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -34,10 +35,14 @@
 			<Add directory="ISolutionProvider" />
 			<Add directory="IScanDongle" />
 		</Compiler>
-		<Unit filename="DongleModel.cpp" />
-		<Unit filename="DongleModel.h" />
 		<Unit filename="DongleModule.cpp" />
 		<Unit filename="DongleModule.h" />
+		<Unit filename="DongleModuleControl/DongleModuleControl.cpp" />
+		<Unit filename="DongleModuleControl/DongleModuleControl.h" />
+		<Unit filename="ICommand/DongleModuleCommand/DongleModuleCommand.cpp" />
+		<Unit filename="ICommand/DongleModuleCommand/DongleModuleCommand.h" />
+		<Unit filename="ICommand/ICommand.cpp" />
+		<Unit filename="ICommand/ICommand.h" />
 		<Unit filename="IGetDongleInfo/IGetDongleInfo.cpp" />
 		<Unit filename="IGetDongleInfo/IGetDongleInfo.h" />
 		<Unit filename="IScanDongle/IScanDongle.cpp" />
