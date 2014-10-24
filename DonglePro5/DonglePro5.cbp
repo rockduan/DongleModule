@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DonglePro5" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DonglePro5" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DonglePro5" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="ISolutionProvider" />
+			<Add directory="IScanDongle" />
+		</Compiler>
+		<Unit filename="DongleModel.cpp" />
+		<Unit filename="DongleModel.h" />
+		<Unit filename="DongleModule.cpp" />
+		<Unit filename="DongleModule.h" />
+		<Unit filename="IGetDongleInfo/IGetDongleInfo.cpp" />
+		<Unit filename="IGetDongleInfo/IGetDongleInfo.h" />
+		<Unit filename="IScanDongle/IScanDongle.cpp" />
+		<Unit filename="IScanDongle/IScanDongle.h" />
+		<Unit filename="IScanDongle/IScanDonglebyRC.cpp" />
+		<Unit filename="IScanDongle/IScanDonglebyRC.h" />
+		<Unit filename="IScanDongle/ScanDonglebyBluetooth.cpp" />
+		<Unit filename="IScanDongle/ScanDonglebyBluetooth.h" />
+		<Unit filename="IScanDongle/ScanDonglebyBlutooth.h" />
+		<Unit filename="IScanDongle/ScanDonglebyNEC.cpp" />
+		<Unit filename="IScanDongle/ScanDonglebyNEC.h" />
+		<Unit filename="ISetDongleToIspMode/ISetDongleToIspMode.cpp" />
+		<Unit filename="ISetDongleToIspMode/ISetDongleToIspMode.h" />
+		<Unit filename="ISetDongleToNomalMode/ISetDongleToNomalMode.cpp" />
+		<Unit filename="ISetDongleToNomalMode/ISetDongleToNomalMode.h" />
+		<Unit filename="ISolutionProvider/SolutionProvider.cpp" />
+		<Unit filename="ISolutionProvider/SolutionProvider.h" />
+		<Unit filename="ISolutionProvider/SolutionProviderA.cpp" />
+		<Unit filename="ISolutionProvider/SolutionProviderA.h" />
+		<Unit filename="ISolutionProvider/SolutionProviderB.cpp" />
+		<Unit filename="ISolutionProvider/SolutionProviderB.h" />
+		<Unit filename="ISolutionProvider/SolutionProviderFactory.cpp" />
+		<Unit filename="ISolutionProvider/SolutionProviderFactory.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
