@@ -1,6 +1,7 @@
 #ifndef IGETDONGLEINFO_H
 #define IGETDONGLEINFO_H
-
+#include <iostream>
+using namespace std;
 
 class IGetDongleInfo
 {
@@ -9,6 +10,7 @@ class IGetDongleInfo
         IGetDongleInfo();
         /** Default destructor */
         virtual ~IGetDongleInfo();
+        virtual bool getDongleInfo()=0;
     protected:
     private:
 };
