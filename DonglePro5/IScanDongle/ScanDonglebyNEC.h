@@ -11,7 +11,7 @@ class ScanDonglebyNEC : public IScanDongle
         ScanDonglebyNEC();
         /** Default destructor */
         virtual ~ScanDonglebyNEC();
-        void ScanDongle();
+        bool scanDongle();
     protected:
     private:
 };

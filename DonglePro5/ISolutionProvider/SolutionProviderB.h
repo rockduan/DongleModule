@@ -11,9 +11,9 @@ class SolutionProviderB:public SolutionProvider
         SolutionProviderB();
         /** Default destructor */
         virtual ~SolutionProviderB();
-        void ScanDongle();
-        void GetDongleInfo();
-        void SetDongleToIspMode();
+        bool scanDongle();
+        bool getDongleInfo();
+        bool setDongleMode(int mode);
     protected:
     private:
 };

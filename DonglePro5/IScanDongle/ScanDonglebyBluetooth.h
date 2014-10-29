@@ -9,7 +9,7 @@ class ScanDonglebyBluetooth : public IScanDongle
         ScanDonglebyBluetooth();
         /** Default destructor */
         virtual ~ScanDonglebyBluetooth();
-        void ScanDongle();
+        bool scanDongle();
     protected:
     private:
 };

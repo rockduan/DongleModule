@@ -11,7 +11,7 @@ class ScanDonglebyBlutooth : public IScanDongle
         ScanDonglebyBlutooth();
         /** Default destructor */
         virtual ~ScanDonglebyBlutooth();
-        void ScanDongle();
+        bool scanDongle();
     protected:
     private:
 };

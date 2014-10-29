@@ -9,3 +9,7 @@ SetDongleToIspMode::~SetDongleToIspMode()
 {
     //dtor
 }
+bool SetDongleToIspMode::setDongleMode(int mode)
+{
+    return true;
+}

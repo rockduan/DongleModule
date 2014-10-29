@@ -9,15 +9,17 @@ SolutionProviderB::~SolutionProviderB()
 {
     //dtor
 }
-void SolutionProviderB::ScanDongle()
+bool SolutionProviderB::scanDongle()
+{
+    cout<<"SolutionProviderB::scanDongle()"<<endl;
+    return true;
+}
+bool SolutionProviderB::getDongleInfo()
 {
 
+    cout<<"SolutionProviderB::getDongleInfo()"<<endl;
 }
-void SolutionProviderB::GetDongleInfo()
+bool SolutionProviderB::setDongleMode(int mode)
 {
-
-}
-void SolutionProviderB::SetDongleToIspMode()
-{
-    cout<<"SolutionProviderB::SetDongleToIspMode()"<<endl;
+    cout<<"SolutionProviderB::setDongleMode()"<<endl;
 }

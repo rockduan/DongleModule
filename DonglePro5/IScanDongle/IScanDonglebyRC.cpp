@@ -9,7 +9,7 @@ IScanDonglebyRC::~IScanDonglebyRC()
 {
     //dtor
 }
-void IScanDonglebyRC::ScanDongle()
+bool IScanDonglebyRC::scanDongle()
 {
-    cout<<"IScanDonglebyRC::ScanDongle()"<<endl;
+    cout<<"IScanDonglebyRC::scanDongle()"<<endl;
 }

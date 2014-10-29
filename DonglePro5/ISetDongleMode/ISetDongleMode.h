@@ -7,6 +7,7 @@ class ISetDongleMode
     public:
         ISetDongleMode();
         virtual ~ISetDongleMode();
+        virtual bool setDongleMode(int mode) = 0;
     protected:
     private:
 };

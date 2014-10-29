@@ -11,7 +11,7 @@ class IScanDonglebyRC : public IScanDongle
         IScanDonglebyRC();
         /** Default destructor */
         virtual ~IScanDonglebyRC();
-        void ScanDongle();
+        bool scanDongle();
     protected:
     private:
 };

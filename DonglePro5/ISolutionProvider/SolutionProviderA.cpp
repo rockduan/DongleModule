@@ -26,22 +26,25 @@ SolutionProviderA::~SolutionProviderA()
 {
     //dtor
 }
-void SolutionProviderA::ScanDongle()
+bool SolutionProviderA::scanDongle()
 {
-    cout<<"SolutionProviderA::ScanDongle()"<<endl;
+    cout<<"SolutionProviderA::scanDongle()"<<endl;
     //类中有一个接口的实例变量IScanDongle和一个接口的行为函数void ScanDongle()，
     //在接口行为函数ScanDongle的具体实现中(.cpp文件)才将接口的实例变量实例化，
     //达到运行时指定具体行为的目的
     iScanDongle = new ScanDonglebyBluetooth();
-    iScanDongle->ScanDongle();
+    iScanDongle->scanDongle();
 }
-/*
-void SolutionProviderA::GetDongleInfo()
+bool SolutionProviderA::burnDongle()
 {
-     cout<<"SolutionProviderA::GetDongleInfo()"<<endl;
+    iBurnDongle = new BurnDongle();
+    iBurnDongle->burnDongle();
 }
-void SolutionProviderA::SetDongleToNomalMode()
+bool SolutionProviderA::getDongleInfo()
 {
-    cout<<"SolutionProviderA::SetDongleToNomalMode()"<<endl;
+     cout<<"SolutionProviderA::getDongleInfo()"<<endl;
 }
-*/
+bool SolutionProviderA::setDongleMode(int mode)
+{
+    cout<<"SolutionProviderA::setDongleMode()"<<endl;
+}

@@ -2,6 +2,7 @@
 #define SOLUTIONPROVIDERA_H
 #include "SolutionProvider.h"
 #include "ScanDonglebyBluetooth.h"
+#include "BurnDongle.h"
 #include <iostream>
 using namespace std;
 class SolutionProviderA : public SolutionProvider
@@ -11,7 +12,10 @@ class SolutionProviderA : public SolutionProvider
         SolutionProviderA();
         /** Default destructor */
         virtual ~SolutionProviderA();
-        void ScanDongle();
+        bool scanDongle();
+        bool burnDongle();
+        bool getDongleInfo();
+        bool setDongleMode(int mode);
        protected:
     private:
 };

@@ -9,3 +9,7 @@ SetDongleToNormalMode::~SetDongleToNormalMode()
 {
     //dtor
 }
+bool SetDongleToNormalMode::setDongleMode(int mode)
+{
+    return true;
+}

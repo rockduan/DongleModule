@@ -10,7 +10,7 @@ ScanDonglebyBluetooth::~ScanDonglebyBluetooth()
 {
     //dtor
 }
-void ScanDonglebyBluetooth::ScanDongle()
+bool ScanDonglebyBluetooth::scanDongle()
 {
-    cout<<"ScanDonglebyBluetooth::ScanDongle()"<<endl;
+    cout<<"ScanDonglebyBluetooth::scanDongle()"<<endl;
 }

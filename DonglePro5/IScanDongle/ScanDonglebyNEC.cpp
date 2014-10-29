@@ -9,7 +9,7 @@ ScanDonglebyNEC::~ScanDonglebyNEC()
 {
     //dtor
 }
-void ScanDonglebyNEC::ScanDongle()
+bool ScanDonglebyNEC::scanDongle()
 {
-    cout<<"ScanDonglebyNEC::ScanDongle()"<<endl;
+    cout<<"ScanDonglebyNEC::scanDongle()"<<endl;
 }

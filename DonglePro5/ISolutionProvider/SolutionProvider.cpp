@@ -19,8 +19,3 @@ SolutionProvider::SolutionProvider(IScanDongle *i_ScanDongle)
     iScanDongle = i_ScanDongle;
 }
 */
-void SolutionProvider::ScanDongle()
-{
-    cout<<"SolutionProvider::ScanDongle()"<<endl;
-    //iScanDongle.ScanDongle();
-}

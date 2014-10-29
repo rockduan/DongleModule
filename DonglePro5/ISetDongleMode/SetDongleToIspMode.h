@@ -9,6 +9,7 @@ class SetDongleToIspMode : public ISetDongleMode
     public:
         SetDongleToIspMode();
         virtual ~SetDongleToIspMode();
+        bool setDongleMode(int mode);
     protected:
     private:
 };
