@@ -1,6 +1,6 @@
 #--------DongleModule-----------
 CC = g++
-CFLAGS = -C -Wall -g
+CFLAGS = -c -Wall
 LIBS = -L ../ISolutionProvider
 INCLUDE = -I ../ISolutionProvider -I ../IScanDongle -I ../IBurnDongle \
  -I ../IGetDongleInfo -I ../ISetDongleMode -I ../libs
