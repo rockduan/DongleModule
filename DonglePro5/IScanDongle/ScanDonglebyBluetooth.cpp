@@ -13,4 +13,5 @@ ScanDonglebyBluetooth::~ScanDonglebyBluetooth()
 bool ScanDonglebyBluetooth::scanDongle()
 {
     cout<<"ScanDonglebyBluetooth::scanDongle()"<<endl;
+	return true;
 }

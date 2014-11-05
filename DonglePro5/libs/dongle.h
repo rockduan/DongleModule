@@ -7,7 +7,6 @@
 //#include <android/log.h>
 #include <fcntl.h>
 
-
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -35,7 +34,6 @@ extern "C" {
 #define FAIL_INIT_DONGLE 0x7
 #define SUCCESS_GET_VERSION 0x8
 #define FAIL_SET_DONGLE_NORMAL_MODE 0x9
-
 
 void my_progress_callback(int stage, int max, int current);
 

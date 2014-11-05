@@ -12,4 +12,5 @@ GetDongleInfo::~GetDongleInfo()
 bool GetDongleInfo::getDongleInfo()
 {
     cout<<" GetDongleInfo::getDongleInfo()"<<endl;
+	return true;
 }

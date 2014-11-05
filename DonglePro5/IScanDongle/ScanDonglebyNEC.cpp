@@ -12,4 +12,5 @@ ScanDonglebyNEC::~ScanDonglebyNEC()
 bool ScanDonglebyNEC::scanDongle()
 {
     cout<<"ScanDonglebyNEC::scanDongle()"<<endl;
+	return true;
 }

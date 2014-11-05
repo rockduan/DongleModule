@@ -18,8 +18,10 @@ bool SolutionProviderB::getDongleInfo()
 {
 
     cout<<"SolutionProviderB::getDongleInfo()"<<endl;
+	return true;
 }
 bool SolutionProviderB::setDongleMode(int mode)
 {
     cout<<"SolutionProviderB::setDongleMode()"<<endl;
+	return true;
 }

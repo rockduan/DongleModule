@@ -10,6 +10,7 @@ ModuleControl::~ModuleControl()
 {
     //dtor
 }
+
 void ModuleControl::SendCommand(Command *cmd)
 {
     cout<<"ModuleControl::SendCommand(Command cmd)..."<<endl;

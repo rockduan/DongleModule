@@ -34,17 +34,21 @@ bool SolutionProviderA::scanDongle()
     //达到运行时指定具体行为的目的
     iScanDongle = new ScanDonglebyBluetooth();
     iScanDongle->scanDongle();
+	return true;
 }
 bool SolutionProviderA::burnDongle()
 {
     iBurnDongle = new BurnDongle();
     iBurnDongle->burnDongle();
+	return true;
 }
 bool SolutionProviderA::getDongleInfo()
 {
      cout<<"SolutionProviderA::getDongleInfo()"<<endl;
+	return true;
 }
 bool SolutionProviderA::setDongleMode(int mode)
 {
     cout<<"SolutionProviderA::setDongleMode()"<<endl;
+	return true;
 }
