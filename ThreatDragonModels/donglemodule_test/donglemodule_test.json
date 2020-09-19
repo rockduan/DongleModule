@@ -5,8 +5,19 @@
     "description": "sdfsfsfsf"
   },
   "detail": {
-    "contributors": [],
-    "diagrams": [],
+    "contributors": [
+      {
+        "name": "rocky"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "donglemodule_test",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "diagramType": "STRIDE",
+        "id": 0
+      }
+    ],
     "reviewer": "rocky"
   }
 }
